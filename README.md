@@ -21,13 +21,13 @@ feed-generatorを読む
 https://scrapbox.io/Bluesky/feed-generator%E3%82%92%E8%AA%AD%E3%82%80
 
 ## 開発環境
-**Visual Studio Community 2022
-**.NET 8
-**C#
+* Visual Studio Community 2022
+* .NET 8
+* C#
 
 ## 使用パッケージ
-**Microsoft.Data.Sqlite.Core
-**SQLitePCLRaw.bundle_e_sqlite3
+* Microsoft.Data.Sqlite.Core
+* SQLitePCLRaw.bundle_e_sqlite3
 ビルドできない場合は上記2つをNuGetパッケージマネージャーからインストール
 
 ## 作成者
