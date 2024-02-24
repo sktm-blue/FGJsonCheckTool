@@ -1,5 +1,6 @@
 # FGJsonCheckTool
 feed-generatorにリクエストを送って返ってきたJSONをチェックするツールです。
+![FGJsonCheckTool_image](https://github.com/sktm-blue/FGJsonCheckTool/assets/161000035/1ec83a7b-1daa-49b0-b83e-9e1789bfb8a0)
 
 ## 機能
 JSONで列挙されているURIをDBに問い合わせ、投稿のテキストを表示します。
