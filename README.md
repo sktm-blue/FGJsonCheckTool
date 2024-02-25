@@ -5,6 +5,10 @@ feed-generatorにリクエストを送って返ってきたJSONをチェックするツールです。
 ## 機能
 JSONで列挙されているURIをDBに問い合わせ、投稿のテキストを表示します。
 
+## 前提条件
+2024/2/25時点の公式feed-generatorでは投稿の本文をDBに格納していません。
+DBにtextカラムを作り、そこに本文を格納するよう実装することで本ツールを使用できます。
+
 ## 使い方
 1. feed-generatorで生成されたDBファイルをWindows環境に準備します。
 2. このツールを起動し、[参照...]ボタンを押してDBファイルを選択します。
@@ -28,8 +32,7 @@ https://scrapbox.io/Bluesky/feed-generator%E3%82%92%E8%AA%AD%E3%82%80
 
 ## 使用パッケージ
 * Microsoft.Data.Sqlite.Core
-* SQLitePCLRaw.bundle_e_sqlite3  
-ビルドできない場合は上記2つをNuGetパッケージマネージャーからインストール
+* SQLitePCLRaw.bundle_e_sqlite3
 
 ## 作成者
 さかとも(Bluesky : https://bsky.app/profile/sktm.blue)
